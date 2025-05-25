@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memorama Interactivo de Animales</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memorama Interactivo</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; flex-direction: column; background-color: #f4f4f4;">
+<body>
+  <div class="game-container">
+    <h1>Memorama Interactivo</h1>
+    <div class="board" id="game-board"></div>
+    <button id="restart-btn" onclick="startGame()">Reiniciar Juego</button>
+  </div>
 
-    <h1>Memorama Interactivo de Animales</h1>
-    <p>¡Haz coincidir las tarjetas de animales!</p>
-    <div id="memorama-container" style="display: grid; grid-template-columns: repeat(4, 115px); gap: 10px; justify-content: center;">
-        <!-- Las cartas se generarán aquí con JS -->
-    </div>
-
-    <!-- Botón de reinicio -->
-    <button onclick="reiniciarJuego()" style="margin-top: 20px; padding: 10px 20px; font-size: 16px; background-color: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer;">
-        Reiniciar Juego
-    </button>
-
-    <!-- Conectar el archivo JS -->
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
