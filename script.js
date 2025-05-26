@@ -3,10 +3,8 @@ let cards = [];
 let flippedCards = [];
 let matchedCards = 0;
 let animalImages = [
-  "images/dog.jpg", "images/cat.jpg", "images/lion.jpg", "images/elephant.jpg", 
-  "images/tiger.jpg", "images/giraffe.jpg", "images/monkey.jpg", "images/panda.jpg", 
-  "images/dog.jpg", "images/cat.jpg", "images/lion.jpg", "images/elephant.jpg", 
-  "images/tiger.jpg", "images/giraffe.jpg", "images/monkey.jpg", "images/panda.jpg"
+  "images/dog.jpg", "images/cat.jpg", "images/lion.jpg", "images/elephant.jpg",  
+  "images/dog.jpg", "images/cat.jpg", "images/lion.jpg", "images/elephant.jpg",
 ];
 
 function startGame() {
